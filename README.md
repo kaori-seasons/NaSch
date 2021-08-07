@@ -4,6 +4,10 @@
 参考
 -  四川大学Milky Zhang的[A Two-Lane Cellular Automaton Traffic Flow Model with the Keep-Right Rule](http://www.wanfangdata.com.cn/details/detail.do?_type=perio&id=wlxb201108057)
 
+
+[matlab元胞自动机入门篇](https://www.jianshu.com/u/22a3ef9079b1)
+以前在简书写，目前因为简书要求实名最近正在审核中...
+
 >介绍
 
 从wiki上搜到的Cellular_automaton定义如下:
