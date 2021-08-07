@@ -31,9 +31,9 @@ dn =Xn+1 -Xn -L(L为车辆长度)
 
 
 
-到这里，各位新人可能看的还是一脸懵逼，结合国赛中实现的[三车道换道规则](https://github.com/complone/NaSch)，下面我们依次解释一下各个演化规则的意义
+#### 演化规则的意义
 
-> 1)加速:司机总期望以最大的速度行驶
+ 1)加速:司机总期望以最大的速度行驶
 2)安全刹车:为避免与前车发生碰撞
 3)随机慢化(即车辆行驶时不确定因素)
 - 过度刹车
@@ -42,7 +42,7 @@ dn =Xn+1 -Xn -L(L为车辆长度)
 - 延迟因素
 4)位置：车辆前进
 
-####当Vmax=2时
+#### 当Vmax=2时
 
 ![5309010-ae3007850c38018a.png](http://upload-images.jianshu.io/upload_images/5309010-0b4cb0b6dfe1f492.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -92,7 +92,7 @@ PLAZA=rot90(plaza,2);
 
 h=show_plaza(PLAZA,h,0.1);
 ```
-#from 模型 to 编程  
+### from 模型 to 编程  
 
 之前有讲过，元胞自动机是一个动态生成过程
 
